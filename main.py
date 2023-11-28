@@ -1,6 +1,6 @@
 import threading, requests, time
 
-# using multy-threading programming for sending requests in a proficient way ↓↓↓
+# using multy-threading programming for sending requests in a efficient way ↓↓↓
 start = time.time()
 class MyThread(threading.Thread):
     def __init__(self, url):
